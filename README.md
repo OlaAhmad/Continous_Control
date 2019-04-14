@@ -1,2 +1,3 @@
-# Continuous_Control
+# Project 2: Continuous_Control
 
+### Introduction
