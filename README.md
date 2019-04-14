@@ -1,12 +1,13 @@
 
 [//]: # (Image References)
 
-[image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Double-joined arm Agent"
+[image1]: https://github.com/OlaAhmad/Continuous_Control/blob/master/double-joined-arm.png "Double-joined arm Agent"
 
 # Project 2: Continuous_Control
 
 ### Introduction
 
+![Double-joined arm Agent][image1]
 
 In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. The goal of the agent is to maintain its position at the target location for as many time steps as possible.
 
