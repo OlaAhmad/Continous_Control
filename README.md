@@ -30,10 +30,10 @@ When runing the notebook, the actor-critic agent will start training over a numb
 
 ### Codes
 
-We added two files to train the agent for the notebook: 
+I added two files to train the agent for the notebook: 
 1. model.py: builds actor and critic neural network architectures. 
 2. dqn_agent.py: interacts with Banana enviornement and learns the agent from it.
-We used and adapted the codes from the lesson (ddpg-pendulum).
+The code was adapted from the lesson (ddpg-pendulum).
 
 ### Resources
 
