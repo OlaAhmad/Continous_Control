@@ -1,2 +1,2 @@
-# Continous_Control
+# Continuous_Control
 
