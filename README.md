@@ -1,7 +1,7 @@
 
 [//]: # (Image References)
 
-[image1]: (https://github.com/OlaAhmad/Continuous_Control/blob/master/double-joined-arm.png|height="50%" width="50%") "Double-joined arm Agent"
+[image1]: (https://github.com/OlaAhmad/Continuous_Control/blob/master/double-joined-arm.png|height=50 width=50) "Double-joined arm Agent"
 
 # Project 2: Continuous_Control
 
