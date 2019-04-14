@@ -1,6 +1,16 @@
+
+[//]: # (Image References)
+
+[image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Double-joined arm Agent"
+
 # Project 2: Continuous_Control
 
 ### Introduction
+
+
+In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. The goal of the agent is to maintain its position at the target location for as many time steps as possible.
+
+The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 
 ### Getting started
 
@@ -19,7 +29,7 @@ When runing the notebook, the actor-critic agent will start training over a numb
 
 ### Codes
 
-We added two files to train the agent using the notebook: 
+We added two files to train the agent for the notebook: 
 1. model.py: builds actor and critic neural network architectures. 
 2. dqn_agent.py: interacts with Banana enviornement and learns the agent from it.
 We used and adapted the codes from the lesson (ddpg-pendulum).
