@@ -21,7 +21,7 @@ Download the Continous_Control repository from the top-right button. You can als
         
 ### Usage
 
-Go to the Navigation folder and open the Navigation notebook to train the DQN agent as follows:
+Go to the Continuous_Control folder and open the notebook to train the agent as follows:
 
     cd Continuous_Control
     Jupyter notebook Continuous_Control-2.ipynb
