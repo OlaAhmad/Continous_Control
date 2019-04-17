@@ -13,7 +13,7 @@ class Actor(nn.Module):
     """
     Actor (policy) model
     """
-    def __init__(self, state_size, action_size, seed, fc1_units=128, fc2_units=128, fc3_units=256):
+    def __init__(self, state_size, action_size, seed, fc1_units=128, fc2_units=256, fc3_units=512):
         """
         initialize class.
         
@@ -53,7 +53,7 @@ class Critic(nn.Module):
     Critic model for state value
     """
 
-    def __init__(self, state_size, action_size, seed, fcs1_units=128, fcs2_units=128, fc3_units=256):
+    def __init__(self, state_size, action_size, seed, fcs1_units=128, fcs2_units=256, fc3_units=512):
         """
         initialize class.
 
