@@ -16,8 +16,8 @@ TAU = 1e-3                  # tau for soft update of target parameters
 LR_ACTOR = 1e-4             # learning rate of the actor
 LR_CRITIC = 1e-3            # learning rate of the critic
 WEIGHT_DECAY = 0            # L2 weight decay
-NUM_AGENTS = 20
-UPDATE_EVERY = 10
+NUM_AGENTS = 1
+UPDATE_EVERY = 5
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
@@ -143,7 +143,7 @@ class Agent():
         critic_loss = F.mse_loss(Q_expected, Q_targets)
         self.critic_optimizer.zero_grad()
         critic_loss.backward()
-        #torch.nn.utils.clip_grad_norm(self.critic_local.parameters(), 1)
+        torch.nn.utils.clip_grad_norm(self.critic_local.parameters(), 1)
         self.critic_optimizer.step()
 
         actions_pred = self.actor_local(states)
